@@ -1,10 +1,11 @@
 # BeNomad-CarCharging on Microgrids
 
 
-BeNomad-CarCharging on Microgrids
+Three web services are defined for BeNomad-CarCharging on Microgrids including PV Panel, Battery and CarChargingPoint web services. These services are running within an EMS server to interact with energy units and devices like PV Panel and Battery.
 
-The source of BeNomad-SmartChargingProvider on Islanding situation ( Microgrid ) web API, http://osm.procan-group.com/PvPanel
+# PV Panel
 
+The source of BeNomad-PV Panel web service is available in http://osm.procan-group.com/PvPanel
 Two Restful APIs (POST and GET) are provided to consume and produce parameters regarding production of PV panels. These APIs generates  XML as descibed below. In the next release, these APIs will be able to use RDF, in conformance with the SEAS knowledge model. 
 
 + `POST`:
@@ -56,3 +57,8 @@ Two Restful APIs (POST and GET) are provided to consume and produce parameters r
 </PvPanel>
 ```
 
+# Battery
+Coming soon....
+
+# CarChargingPoint
+coming soon
